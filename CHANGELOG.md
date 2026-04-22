@@ -2,6 +2,21 @@
 
 All notable changes to `laravel-medialibrary` will be documented in this file
 
+## 11.21.1 - 2026-04-22
+
+### What's Changed
+
+* Fix docs bugs: 'to the where' typo and 'how to working with conversio… by @tareq-halaby in https://github.com/spatie/laravel-medialibrary/pull/3928
+* Fix awkward phrasing: 'want to not move, but copy' -> clearer wording by @tareq-halaby in https://github.com/spatie/laravel-medialibrary/pull/3927
+* fix: encode percent signs in filenames when generating URL by @moemadeldin in https://github.com/spatie/laravel-medialibrary/pull/3930
+
+### New Contributors
+
+* @tareq-halaby made their first contribution in https://github.com/spatie/laravel-medialibrary/pull/3928
+* @moemadeldin made their first contribution in https://github.com/spatie/laravel-medialibrary/pull/3930
+
+**Full Changelog**: https://github.com/spatie/laravel-medialibrary/compare/11.21.0...11.21.1
+
 ## 11.21.0 - 2026-02-21
 
 ### What's Changed
