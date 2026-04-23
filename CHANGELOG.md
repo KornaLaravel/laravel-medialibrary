@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-medialibrary` will be documented in this file
 
+## 11.21.2 - 2026-04-23
+
+### What's Changed
+
+* fix: skip URL encoding for S3 disk to prevent double encoding by @moemadeldin in https://github.com/spatie/laravel-medialibrary/pull/3934
+
+**Full Changelog**: https://github.com/spatie/laravel-medialibrary/compare/11.21.1...11.21.2
+
 ## 11.21.1 - 2026-04-22
 
 ### What's Changed
