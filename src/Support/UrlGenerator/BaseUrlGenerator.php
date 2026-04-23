@@ -74,11 +74,11 @@ abstract class BaseUrlGenerator implements UrlGenerator
     protected function getUrlEncodedPathRelativeToRoot(): string
     {
         $driver = config("filesystems.disks.{$this->getDiskName()}.driver");
-        
+
         if ($driver !== 'local') {
             return $this->getPathRelativeToRoot();
         }
-        
+
         $segments = explode('/', $this->getPathRelativeToRoot());
 
         return implode('/', array_map(rawurlencode(...), $segments));
