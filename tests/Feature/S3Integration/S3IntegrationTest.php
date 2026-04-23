@@ -261,3 +261,12 @@ it('can retrieve a zip with s3 disk', function () {
 
     $this->assertFileExistsInZip($temporaryDirectory->path('response.zip'), 'test.jpg');
 });
+
+it('does not double encode percent signs in filenames on S3', function () {
+    $media = $this->testModel->addMedia($this->getTestFilesDirectory('test_.jpg'))
+        ->usingFileName('IMG_5405%20copy.jpg')
+        ->toMediaCollection('default', 's3_disk');
+
+    expect($media->getUrl())->toContain('IMG_5405%2520copy.jpg');
+    expect($media->getUrl())->not->toContain('IMG_5405%252520copy.jpg');
+});
