@@ -2,6 +2,19 @@
 
 All notable changes to `laravel-medialibrary` will be documented in this file
 
+## 11.22.0 - 2026-04-28
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2 to 3 by @dependabot[bot] in https://github.com/spatie/laravel-medialibrary/pull/3931
+* Add `deferred()` conversion option by @ziadoz in https://github.com/spatie/laravel-medialibrary/pull/3922
+
+### New Contributors
+
+* @ziadoz made their first contribution in https://github.com/spatie/laravel-medialibrary/pull/3922
+
+**Full Changelog**: https://github.com/spatie/laravel-medialibrary/compare/11.21.2...11.22.0
+
 ## 11.21.2 - 2026-04-23
 
 ### What's Changed
