@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-medialibrary` will be documented in this file
 
+## 11.22.1 - 2026-05-04
+
+### What's Changed
+
+* Removed stray 3MB `speaking-page.png` from the repo root, accidentally committed in a previous "wip" commit. Reduces the size of the package archive downloaded by Composer.
+
+**Full Changelog**: https://github.com/spatie/laravel-medialibrary/compare/11.22.0...11.22.1
+
 ## 11.22.0 - 2026-04-28
 
 ### What's Changed
